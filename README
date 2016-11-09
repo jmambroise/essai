@@ -1,5 +1,12 @@
-This is a C library for Raspberry Pi (RPi). It provides access to 
-GPIO and other IO functions on the Broadcom BCM 2835 chip.
-allowing access to the 
-26 pin ISE plug on the RPi board so you can control and interface with various
+bcm2835-1.50 :
+This is a C library for Raspberry Pi (RPi/PRi2). It provides access to 
+GPIO and other IO functions on the Broadcom BCM 2835/Broadcom BCM 2836 chips.
+allowing access to the 26/40 pin ISE plug on the RPi board so you can control and interface with various
 external devices.
+
+ClasseGpioBase.cpp, ClasseGpioBase.h : 
+Base class for GPIOs.
+
+ClasseGpioClignotant :
+Class example of blinky
+
